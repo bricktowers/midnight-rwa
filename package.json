@@ -1,0 +1,54 @@
+{
+  "name": "midnight-rwa",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "author": "Brick Towers",
+  "workspaces": [
+    "rwa-contract",
+    "tbtc-contract",
+    "identity-api",
+    "rwa-api",
+    "rwa-ui"
+  ],
+  "scripts": {
+    "postinstall": "npx patch-package"
+  },
+  "devDependencies": {
+    "@midnight-ntwrk/midnight-js-testing": "2.0.2",
+    "@midnight-ntwrk/wallet-sdk-hd": "2.0.0",
+    "@eslint/js": "^9.26.0",
+    "@types/node": "^22.15.21",
+    "@types/ws": "^8.18.1",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "axios": "^1.13.2",
+    "eslint": "^9.26.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.0",
+    "testcontainers": "^10.27.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "vitest": "^1.6.1",
+    "turbo": "^1.10.16"
+  },
+  "dependencies": {
+    "@midnight-ntwrk/compact-runtime": "0.9.0",
+    "@midnight-ntwrk/ledger": "4.0.0",
+    "@midnight-ntwrk/dapp-connector-api": "3.0.0",
+    "@midnight-ntwrk/midnight-js-contracts": "2.0.2",
+    "@midnight-ntwrk/midnight-js-http-client-proof-provider": "2.0.2",
+    "@midnight-ntwrk/midnight-js-fetch-zk-config-provider": "2.0.2",
+    "@midnight-ntwrk/midnight-js-indexer-public-data-provider": "2.0.2",
+    "@midnight-ntwrk/midnight-js-level-private-state-provider": "2.0.2",
+    "@midnight-ntwrk/midnight-js-node-zk-config-provider": "2.0.2",
+    "@midnight-ntwrk/midnight-js-types": "2.0.2",
+    "@midnight-ntwrk/wallet": "5.0.0",
+    "@midnight-ntwrk/wallet-api": "5.0.0",
+    "@midnight-ntwrk/zswap": "4.0.0",
+    "@midnight-ntwrk/wallet-sdk-address-format": "2.0.0",
+    "pino": "^9.7.0",
+    "pino-pretty": "^13.0.0",
+    "ws": "^8.18.1"
+  }
+}

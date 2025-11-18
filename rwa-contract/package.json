@@ -1,0 +1,30 @@
+{
+  "name": "@bricktowers/rwa-contract",
+  "version": "0.1.0",
+  "author": "Brick Towers",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "devDependencies": {
+    "@bricktowers/tbtc-contract": "*"
+  },
+  "scripts": {
+    "compact": "compact compile src/midnight-rwa.compact src/managed/midnight-rwa",
+    "compact:skip-zk": "compact compile --skip-zk src/midnight-rwa.compact src/managed/midnight-rwa",
+    "test": "vitest run",
+    "test:compile": "npm run compact && vitest run",
+    "build": "rm -rf dist && tsc --project tsconfig.build.json && cp -Rf ./src/managed ./dist/managed && cp ./src/midnight-rwa.compact ./dist",
+    "lint": "eslint src",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  }
+}

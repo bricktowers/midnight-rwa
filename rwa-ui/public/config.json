@@ -1,0 +1,9 @@
+{
+  "BRICK_TOWERS_TOKEN_ADDRESS": "020031c16caa34f5daaeb1cff1ff164627fb7eecb89098592f3fc80b1ff578539cb6",
+  "BRICK_TOWERS_RWA_ADDRESS": "02005fe7f60d516354be765b1876fe70f0b5fc3c989a8400d731f0d5cb56a611abba",
+  "LOGGING_LEVEL": "trace",
+  "NETWORK_ID": "TestNet",
+  "PUBLIC_URL": "http://127.0.0.1:8080",
+  "INDEXER_URI":  "http://localhost:8088/api/v1/graphql",
+  "INDEXER_WS_URI": "ws://localhost:8088/api/v1/graphql/ws"
+}
