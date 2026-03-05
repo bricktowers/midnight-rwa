@@ -1,6 +1,8 @@
 # Brick Towers Real World Asset (RWA) Tokenization
 
-Brick Towers Midnight RWA is an end-to-end showcase of privacy-preserving, real-world-asset tokenization built on the Midnight Network. The repository includes Midnight Compact contracts for token issuance, accredited investor verification, a credential issuer service, a React front-end, a tBTC faucet, and Midnight wallet integrations that keep user data local while enforcing issuance and trading only to accredited investors (meets knowledge, wealth, nationality and age requirements).
+Brick Towers Midnight RWA is an end-to-end showcase of privacy-preserving, real-world-asset tokenization. The repository includes Midnight Compact contracts for token issuance, accredited investor verification, a credential issuer service, a React front-end, a tBTC faucet, and Midnight wallet integrations that keep user data local while enforcing issuance and trading only to accredited investors (meets knowledge, wealth, nationality and age requirements).
+
+This project is built on the Midnight Network.
 
 ## 📖 Overview
 
